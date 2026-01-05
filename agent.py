@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("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"))
 
 SYSTEM_PROMPT = """
 Tu es un assistant professionnel d’aide à la gestion documentaire hygiène
